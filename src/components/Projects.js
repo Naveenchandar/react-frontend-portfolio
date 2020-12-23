@@ -11,9 +11,9 @@ class Projects extends Component {
   }
 
   render() {
-    let detailsModalShow = (data) => {
-      this.setState({ detailsModalShow: true, deps: data });
-    };
+    // let detailsModalShow = (data) => {
+    //   this.setState({ detailsModalShow: true, deps: data });
+    // };
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
@@ -37,7 +37,11 @@ class Projects extends Component {
                   /> */}
                   {/* <span className="project-date">{projects.startDate}</span> */}
                   <br />
-                  <a href='https://github.com/Naveenchandar?tab=repositories' target='_blank' className="project-title-settings mt-3">
+                  <a 
+                    href='https://github.com/Naveenchandar?tab=repositories' 
+                    target='_blank' 
+                    rel="noopener noreferrer"
+                    className="project-title-settings mt-3">
                     {projects.title}
                   </a>
                 </div>
