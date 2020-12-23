@@ -37,9 +37,9 @@ class Projects extends Component {
                   /> */}
                   {/* <span className="project-date">{projects.startDate}</span> */}
                   <br />
-                  <a 
-                    href='https://github.com/Naveenchandar?tab=repositories' 
-                    target='_blank' 
+                  <a
+                    href='https://github.com/Naveenchandar?tab=repositories'
+                    target='_blank'
                     rel="noopener noreferrer"
                     className="project-title-settings mt-3">
                     {projects.title}
