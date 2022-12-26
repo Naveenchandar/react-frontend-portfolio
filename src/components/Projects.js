@@ -18,11 +18,11 @@ class Projects extends Component {
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.projects;
-      var projects = this.props.resumeProjects.map(function (projects) {
+      var projects = this.props.resumeProjects.map(function ({ title, url }) {
         return (
           <div
             className="col-sm-12 col-md-6 col-lg-4"
-            key={projects.title}
+            key={title}
             style={{ cursor: "pointer" }}
           >
             <span className="portfolio-item d-block">
@@ -38,11 +38,11 @@ class Projects extends Component {
                   {/* <span className="project-date">{projects.startDate}</span> */}
                   <br />
                   <a
-                    href='https://github.com/Naveenchandar?tab=repositories'
+                    href={url || 'https://github.com/Naveenchandar?tab=repositories'}
                     target='_blank'
                     rel="noopener noreferrer"
                     className="project-title-settings mt-3">
-                    {projects.title}
+                    {title}
                   </a>
                 </div>
               </div>
