@@ -149,6 +149,51 @@ export const carrierData = {
           "name": "C#"
         }
       ]
+    },
+    {
+      "title": "Retro Focus",
+      "description": "Retro focus is a react based web application to focus more on today's Main Focus, Weather and Time",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com/Naveenchandar/retro-focus",
+    },
+    {
+      "title": "Retro Cart e-Commerce",
+      "description": "Retro Cart E commerce - An online store for all shopping needs made using react.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com/Naveenchandar/retro-cart-ecommerce",
+    },
+    {
+      "title": "Retro Tube",
+      "description": "Retro-tube is a video library application for football clubs. Watch your favourite clubs videos at one place.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com/Naveenchandar/retro-tube",
+    },
+    {
+      "title": "Retro Quiz",
+      "description": "This consists of varieties of quiz on various categories. Feel free to test your knowledge.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com/Naveenchandar/retro-quiz",
+    },
+    {
+      "title": "Retro UI",
+      "description": "Retro UI is a Component Library to build UI in a rapid way.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com/Naveenchandar/retro-ui",
     }
   ],
   "experience": [
@@ -195,14 +240,30 @@ export const carrierData = {
       "title": "Front-End Developer",
       "years": "Aug 2018 - Mar 2019",
       "mainTech": [
-        "JavaScript"
+        "JavaScript",
+        "React"
       ],
       "technologies": [
         "HTML",
         "CSS",
         "Bootstrap",
-        "jQuery",
+        "React Hooks",
         "JavaScript",
+      ]
+    },
+    {
+      "company": "Trane Technologies",
+      "title": "Front-End Developer",
+      "years": "Mar 2019 - Nov 2022",
+      "mainTech": [
+        "JavaScript",
+        "React",
+        "React Native"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "React flow"
       ]
     }
   ]
