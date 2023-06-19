@@ -200,7 +200,7 @@ export const carrierData = {
     {
       "company": "AppsFreedom India Pvt Ltd",
       "title": "Front-End Developer",
-      "years": "Aug 2020 - present",
+      "years": "Aug 2020 - Mar 2021",
       "mainTech": [
         "React"
       ],
@@ -253,8 +253,23 @@ export const carrierData = {
     },
     {
       "company": "Trane Technologies",
-      "title": "Front-End Developer",
-      "years": "Mar 2019 - Nov 2022",
+      "title": "Software Engineer",
+      "years": "Mar 2021 - Nov 2022",
+      "mainTech": [
+        "JavaScript",
+        "React",
+        "React Native"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "React flow"
+      ]
+    },
+    {
+      "company": "Fragma Data Technologies",
+      "title": "Senior Software Engineer",
+      "years": "Nov 2022 - Present",
       "mainTech": [
         "JavaScript",
         "React",
