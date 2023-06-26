@@ -1,5 +1,7 @@
 <h3>:books: Getting started</h3>
 
+
+
 1. Clone or fork project.
 2. Install required dependencies with `npm install`.
 3. Remove or set `homepage` in `package.json` to single dot. 
